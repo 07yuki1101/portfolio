@@ -1,0 +1,43 @@
+import dogStay from "../assets/dog_stay.png"
+import dogStayAdmin from "../assets/dog_stay_admin.png"
+import trainingLog from "../assets/training_log.png"
+function Project() {
+  return (
+    <section id="project" className="project">
+      <h2 className="section-title">Projects</h2>
+      <div className="projects">
+        <div className="card">
+          <h3>Dog Salon</h3>
+          <img src={dogStay} alt="dogStay" />
+          <p>ペットサロンLP 予約ページ</p>
+          <p>HTML / CSS / JavaScript</p>
+          <div className="links">
+            <a href="https://07yuki1101.github.io/dog_salon/" target="_blank">Demo</a>
+            <a href="">GitHub</a>
+          </div>
+        </div>
+        <div className="card">
+          <h3>Dog Salon Admin</h3>
+          <img src={dogStayAdmin} alt="dogStayAdmin" />
+          <p>ペットサロンの予約、顧客管理システム</p>
+          <p>React / Firebase</p>
+          <div className="links">
+            <a href="https://dog-stay-admin.vercel.app/" target="_blank">Demo</a>
+            <a href="">GitHub</a>
+          </div>
+        </div>
+        <div className="card">
+          <h3>Training Log</h3>
+          <img src={trainingLog} alt="trainingLog" />
+          <p>トレーニング記録アプリ</p>
+          <p>React / Firebase</p>
+          <div className="links">
+            <a href="https://training-log-app-tau.vercel.app/" target="_blank">Demo</a>
+            <a href="">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+export default Project;

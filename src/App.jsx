@@ -1,10 +1,18 @@
+import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
-import './App.css'
-
+import Project from "./components/Project"
+import Skills from "./components/Skills"
+import Contact from "./components/Contact"
+import "./App.css"
+// import "./index.css"
 function App() {
   return (
     <>
+      <Navbar />
       <Hero />
+      <Project />
+      <Skills />
+      <Contact />
     </>
   )
 }
