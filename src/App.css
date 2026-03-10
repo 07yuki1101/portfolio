@@ -78,4 +78,26 @@
   background: #1e293b;
   border-radius: 8px;
   font-weight: 500;
+  transition: .3s;
+}
+.skill:hover{
+  transform: translateY(-5px);
+}
+
+/* contact */
+.contact{
+display: flex;
+flex-direction: column;
+font-size: 20px;
+}
+.contact a{
+  color: #3b82f6;
+  margin-top: 12px;
+  display: block;
+  background: #1e293b;
+  padding: 12px 20px;
+  text-align: center;
+  width: 100px;
+  border-radius: 8px;
+  
 }
